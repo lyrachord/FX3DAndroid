@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'org.javafxports:jfxmobile-plugin:1.0.6'
+        //follow lines pass dex, else dex stop at MethodHandle not support
+        classpath 'me.tatarka:gradle-retrolambda:3.3.0-beta2'
+        classpath 'net.orfjackal.retrolambda:retrolambda:+'
+    }
+}
+
+apply plugin: 'org.javafxports.jfxmobile'
+
+repositories {
+    jcenter()
+}
+dependencies{
+	compile files('libs/streamsupport-1.4-SNAPSHOT.jar')
+}
+
+
+//mainClassName = 'TODO'
+
+retrolambda{
+	defaultMethods true;
+}
+
+jfxmobile {
+    android {
+    	compileSdkVersion=19
+    	//androidSdk = 'D:/android/SDK'
+        //manifest = 'src/android/AndroidManifest.xml'
+    }
+}
