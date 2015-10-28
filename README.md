@@ -18,11 +18,18 @@ streamsupport: http://sourceforge.net/projects/streamsupport
 javafxports: http://gluonhq.com/open-source/javafxports/
 
 sample images
-screenshot-1 <img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/1969666178.jpg'/>
 
-screenshot-2 <img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/5808447.jpg'>
+screenshot-1 
 
-screenshot-3 <img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/84041590.jpg'>
+<img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/1969666178.jpg'/>
+
+screenshot-2 
+
+<img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/5808447.jpg'>
+
+screenshot-3 
+
+<img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/84041590.jpg'>
 
 License
 ===================
