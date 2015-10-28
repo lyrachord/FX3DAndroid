@@ -21,5 +21,5 @@ javafxports: http://gluonhq.com/open-source/javafxports/
 License
 ===================
 
-The project is licensed under GPL 3. See [LICENSE](https://github.com/Birdasaur/FXyz/blob/master/LICENSE)
+The project is licensed under GPL 3. See [LICENSE](https://github.com/lyrachord/FX3DAndroid/blob/master/LICENSE)
 file for the full license.
