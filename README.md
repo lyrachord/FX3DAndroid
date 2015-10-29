@@ -18,7 +18,7 @@ streamsupport: http://sourceforge.net/projects/streamsupport
 javafxports: http://gluonhq.com/open-source/javafxports/
 
 
-The project structure follow []gluon tool](http://gluonhq.com/products/tools/) style.
+The project structure follow [gluon tool](http://gluonhq.com/products/tools/) style.
 
 There is a demo com.jx.drops.ScadaApplication, which icon is gluon:-) 
 
@@ -44,7 +44,9 @@ screenshot-3
 <img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/84041590.jpg'>
 
 Thanks
+
 All the great projects.
+
 I would like to especially thank [jperedadnr](https://github.com/jperedadnr).
 
 License
