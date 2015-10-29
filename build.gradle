@@ -32,7 +32,7 @@ retrolambda{
 jfxmobile {
     android {
     	compileSdkVersion=19
-    	//androidSdk = 'D:/android/SDK'
-        //manifest = 'src/android/AndroidManifest.xml'
+    	androidSdk = 'D:/android/SDK'
+        manifest = 'src/android/AndroidManifest.xml'
     }
 }
