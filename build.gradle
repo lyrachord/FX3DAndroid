@@ -1,3 +1,6 @@
+//all  version of gradle, from 2.2.1 to 2.7,  should work. but I tried only 2.2.1 and 2.7.
+
+
 buildscript {
     repositories {
         jcenter()
@@ -5,8 +8,8 @@ buildscript {
     dependencies {
         classpath 'org.javafxports:jfxmobile-plugin:1.0.6'
         //follow lines pass dex, else dex stop at MethodHandle not support
-        classpath 'me.tatarka:gradle-retrolambda:3.3.0-beta2'
-        classpath 'net.orfjackal.retrolambda:retrolambda:+'
+        classpath 'me.tatarka:gradle-retrolambda:3.3.0-beta2' //3.2.3
+        classpath 'net.orfjackal.retrolambda:retrolambda:+' //2.0.7
     }
 }
 
@@ -20,7 +23,7 @@ dependencies{
 }
 
 
-//mainClassName = 'TODO'
+mainClassName = 'com.jx.drops.ScadaApplication'
 
 retrolambda{
 	defaultMethods true;
