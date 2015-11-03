@@ -3,7 +3,7 @@ JavaFX 3D at android
 
 Library for JavaFX 3D at android
 
-dependencies:
+##dependencies:
 
 FXyz: https://github.com/Birdasaur/FXyz
 
@@ -17,34 +17,44 @@ streamsupport: http://sourceforge.net/projects/streamsupport
 
 javafxports: http://gluonhq.com/open-source/javafxports/
 
+##project structure
 
-The project structure follow []gluon tool](http://gluonhq.com/products/tools/) style.
+The project structure follows [gluon tool](http://gluonhq.com/products/tools/) style.
+
+##demo 
 
 There is a demo com.jx.drops.ScadaApplication, which icon is gluon:-) 
 
-demo build
-
-gradle [clean] android[androidInstall]
+###build
+```bash
+gradle clean android
+```
+or
+```bash
+gradle clean androidInstall
+```
 
 gradle version 2.2.1 and 2.7 tested
 
 
-sample images
+##sample images
 
-screenshot-1 
+###screenshot-1 
 
 <img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/1969666178.jpg'/>
 
-screenshot-2 
+###screenshot-2 
 
 <img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/5808447.jpg'>
 
-screenshot-3 
+###screenshot-3 
 
 <img src='https://github.com/lyrachord/FX3DAndroid/blob/master/images/84041590.jpg'>
 
-Thanks
+##Thanks
+
 All the great projects.
+
 I would like to especially thank [jperedadnr](https://github.com/jperedadnr).
 
 License
